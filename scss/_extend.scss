@@ -1,0 +1,16 @@
+.botonFormulario{
+    color:black;
+    background:#78CDBE;
+    border: .1em solid gray;
+    width:130px;
+    height:40px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 48px 20px;
+    cursor: pointer;
+}
+.botonLimpiar{
+    @extend .botonFormulario;
+    background: #c74408;
+    border: .1em solid #c74408;
+}

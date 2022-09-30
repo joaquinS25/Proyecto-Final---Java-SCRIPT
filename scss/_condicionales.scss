@@ -1,0 +1,16 @@
+$vista: tablet;
+body{
+    @if $vista == mobile{
+        @media only screen and (max-width:768px){
+            hi{font-size:50px}
+        }
+    }@else if $vista == tablet{
+        @media only screen and (min-width: 769px) and (max-width:1023px){
+            h1{font-size:30px}
+        }
+    }@else {
+        @media only screen and (min-width: 1023px){
+            
+        }
+    }
+}

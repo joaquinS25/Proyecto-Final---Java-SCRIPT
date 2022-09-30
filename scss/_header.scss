@@ -1,0 +1,24 @@
+header{
+    .barra{list-style-type:none; padding: 10px; margin: 10px;}
+    .nav{display: flex;justify-content: flex-end;flex-wrap: wrap;}
+    grid-area: header;display: flex;border-bottom: solid 1px lightblue;background-color: aliceblue;position: sticky;top: 0;
+    z-index: 1;
+}
+
+/*ANIMACION LOGO HEADER*/
+@keyframes movimiento{
+	0%{transform: translateX(100px);}
+	25%{transform: skew(60deg,60deg);}
+	50%{transform: rotate(45deg);}
+	75%{transform: translate(100px, 100px);}
+	100%{transform: scale(2,0);}
+}
+.animacionImg{
+	animation-name: movimiento;
+	animation-iteration-count: 1;
+	animation-duration: 2s;
+}
+/*NAVBAR*/
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 5.56rem;
+}
