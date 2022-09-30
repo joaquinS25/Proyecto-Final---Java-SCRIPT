@@ -1,33 +1,3 @@
-/*do{
-    let articulo = prompt("Ingrese el articulo que desea comprar");
-    let cantidad = prompt("Ingrese la cantidad que desea comprar");
-    if(articulo == "Laptop"){
-        alert("El total a pagar de la laptop lenovo es:"+1850*cantidad);
-    }else if (articulo == "All in one"){
-        alert("Total a pagar de la All in one es: "+650*cantidad);
-    }else if("Teclado y mouse inalambrico"){
-        alert("El Total a pagar del teclado y mouse es: "+75*cantidad);
-    }else if("Monitor"){
-        alert("El Total a pagar del Monitor es: "+2000*cantidad);
-    }else if("Computadora gamer"){
-        alert("El Total a pagar de la computadora gamer es: "+3000*cantidad);
-    }else if("Parlantes"){
-        alert("El Total a pagar de los parlantes es: "+100*cantidad);
-    }else if("m.2"){
-        alert("El Total a pagar del m.2 es: "+400*cantidad);
-    }else if("RAM"){
-        alert("El Total a pagar la RAM es: "+200*cantidad);
-    }else if("HDD"){
-        alert("El Total a pagar del HDD es: "+150*cantidad);
-    }else if("Televisor"){
-        alert("El Total a pagar del Televisor es: "+1950*cantidad);
-    }else{
-        alert("No hay stock para el producto escogido");
-    }
-    articulo = prompt("Ingrese el articulo que desea comprar");
-    //cantidad = prompt("Ingrese la cantidad que desea comprar");
-}while(articulo !="s")*/
-
 let articulo = prompt("Ingrese el articulo que desea comprar");
 let cantidad = prompt("Ingrese la cantidad que desea comprar");
 while(articulo != "s" && cantidad != 0){
